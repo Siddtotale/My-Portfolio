@@ -300,7 +300,7 @@
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => {
-            msg.innerHTML = "Message Sent Scussefully"
+            msg.innerHTML = "Message Sent successfully"
             setTimeout(function(){
                 msg.innerHTML = ""
             },5000)
