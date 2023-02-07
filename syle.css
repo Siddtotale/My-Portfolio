@@ -296,6 +296,9 @@ body{
 .contact-left p{
     margin-top: 30px;
 }
+.sub-title{
+    color: #ff004f;
+}
 .contact-left p i{
     color: #fff;
     margin-right: 15px;
